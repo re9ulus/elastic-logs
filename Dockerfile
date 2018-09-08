@@ -12,3 +12,5 @@ RUN apt-get update && apt install -y \
 RUN wget https://artifacts.elastic.co/downloads/elasticsearch/${ELASTIC_VERSION} && \
     dpkg -i ${ELASTIC_VERSION} && \
     rm ${ELASTIC_VERSION}
+
+# service elasticsearch start
